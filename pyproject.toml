@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ovam"
-description = "Open-Vocabulary Attention Maps with Token Optimization for Semantic Segmentation in Diffusion Models"
+description = "Open-Voca bulary Attention Maps with Token Optimization for Semantic Segmentation in Diffusion Models"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 dynamic = ["version", "readme"]
