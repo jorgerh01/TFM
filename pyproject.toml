@@ -10,7 +10,7 @@ license = {text = "MIT"}
 dynamic = ["version", "readme"]
 dependencies = [
     "diffusers==0.31.0",
-    "torch==2.5.1+cu124",
+    "torch==2.5.1",
     "transformers==4.46.1", 
     "accelerate==1.2.1",
     "scipy==1.13.1",
