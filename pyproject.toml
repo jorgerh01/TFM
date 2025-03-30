@@ -11,7 +11,7 @@ dynamic = ["version", "readme"]
 dependencies = [
     "diffusers==0.31.0",
     "torch==2.5.1",
-    "transformers==4.46.1", 
+    "transformers==4.46.1",
     "accelerate==1.2.1",
     "scipy==1.13.1",
     "safetensors==0.5.2",
@@ -19,9 +19,8 @@ dependencies = [
     "matplotlib==3.10.0",
     "SimpleCRF==0.2.1.1",
     "huggingface-hub==0.26.2",
-    "transformers==4.46.1",
     "tokenizers==0.20.1",
-    "torchvision==0.15.2",
+    "torchvision==0.15.2"
 ]
 authors = [
     {name="Pablo Marcos-Manchón", email="pmarcos@ub.edu"}
