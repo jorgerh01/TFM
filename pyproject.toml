@@ -4,14 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ovam"
-description = "Open-Voca bulary Attention Maps with Token Optimization for Semantic Segmentation in Diffusion Models"
+description = "Open-Vocabulary Attention Maps with Token Optimization for Semantic Segmentation in Diffusion Models"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 dynamic = ["version", "readme"]
 dependencies = [
     "diffusers==0.31.0",
-    "torch==2.5.1",
-    "transformers==4.46.1",
+    "torch==2.5.1+cu124",
+    "transformers==4.46.1", 
     "accelerate==1.2.1",
     "scipy==1.13.1",
     "safetensors==0.5.2",
@@ -19,8 +19,8 @@ dependencies = [
     "matplotlib==3.10.0",
     "SimpleCRF==0.2.1.1",
     "huggingface-hub==0.26.2",
-    "tokenizers==0.20.1",
-    "torchvision==0.15.2"
+    "transformers==4.46.1",
+    "tokenizers==0.20.1"
 ]
 authors = [
     {name="Pablo Marcos-Manchón", email="pmarcos@ub.edu"}
