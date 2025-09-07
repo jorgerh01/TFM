@@ -17,7 +17,7 @@ dependencies = [
     "safetensors==0.5.2",
     "numpy==1.26.4",
     "matplotlib==3.10.0",
-    "SimpleCRF==0.2.1.1",
+    "SimpleCRF==0.1.0",
     "huggingface-hub==0.26.2",
     "transformers==4.46.1",
     "tokenizers==0.20.1"
